@@ -1,5 +1,6 @@
+import './src/style.css';
+
 const { createApp } = require('vue');
-import App from './app.vue';
-import './style.css';
+import App from './src/app.vue';
 
 createApp(App).mount('#app');
